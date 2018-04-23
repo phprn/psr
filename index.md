@@ -15,4 +15,4 @@ __O que é PSR ?__
 __Quais padrões foram aprovados até agora ?__
 
 Lista do
-[Estado das PSRs ](/indice)
+[Estado das PSRs ](https://php-rn.github.io/Traducao-das-PSRs/indice/)
