@@ -5,7 +5,8 @@ que são necessários para garantir um alto nível de interoperabilidade técnic
 compartilhados
 
 As palavras-chave "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD",
-"SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" nesse documento devem ser interpretadas como descrito em [RFC 2119].
+"SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" nesse documento 
+devem ser interpretadas como descrito na [RFC 2119].
 
 #### Tradução das Palavras-chave
 "MUST" (DEVE);
