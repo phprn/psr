@@ -1,9 +1,3 @@
----
-title: PRS-1
-category: PSRs
-order: 1
----
-
 # Normas Básicas de Codificação
 
 Nesta seção da norma, compreende-se o que deve ser considerado elementos básicos de codificação
@@ -28,14 +22,15 @@ As palavras-chave "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD"
 [RFC 2119]: http://www.ietf.org/rfc/rfc2119.txt
 [PSR-0]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md
 [PSR-4]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-4-autoloader.md
+[BOM]: https://www.w3.org/International/questions/qa-byte-order-mark
 
 ## 1. Visão Geral
 
 - Arquivos DEVEM usar apenas `<?php` and `<?=` tags.
 
-- Arquivos DEVEM usar apenas UTF-8 sem BOM para código PHP.
+- Arquivos DEVEM usar apenas UTF-8 sem [BOM] para código PHP.
 
-- Arquivos DEVERIAM *ou* declarar símbolos (classes, functions, constants, etc.)
+- Arquivos DEVERIAM *ou* declarar símbolos (classes, funções, constantes, etc.)
   *ou* causar efeitos colaterais (por exemplo: gerar saída, modificar configurações .ini e etc.)
   mas NÃO DEVERIAM fazer os dois.
 
@@ -56,22 +51,20 @@ NÃO DEVE ser utilizada outras variações de tag.
 
 ### 2.2. Codificação de caracteres
 
-Código PHP DEVE utilizar apenas UTF-8 sem BOM.
+Código PHP DEVE utilizar apenas UTF-8 sem [BOM].
 
 ### 2.3. Efeitos colaterais
 
-Um arquivo DEVERIA declarar novos símbolos (classes, funções, constantes, etc)
-e não causar outros efeitos colaterais, ou DEVERIA executar lógica com efeitos colaterais, mas NÃO DEVERIA fazer as duas coisas.
+Um arquivo DEVERIA declarar novos símbolos (classes, funções, constantes, etc) e não causar outros efeitos colaterais, 
+ou DEVERIA executar lógica com efeitos colaterais, mas NÃO DEVERIA fazer as duas coisas.
 
 A frase "efeito colateral" significa a execução de lógica não diretamente relacionada a declarar classes, funções, constantes, etc.,
 *simplesmente a partir do arquivo incluído*
 
-"Efeito colateral" não se limita apenas a: gerar saídas, uso explícito de `require` ou `include`, conectando-se serviços externos,
-modificando configurações ini, emitindo erros ou exceções, modificando variáveis globais ou estáticas,
+"Efeito colateral" não se limita apenas a: gerar saídas, uso explícito de `require` ou `include`, conectando-se serviços externos, modificando configurações ini, emitindo erros ou exceções, modificando variáveis globais ou estáticas,
 lendo ou escrevendo em arquivos e assim por diante.
 
-O exemplo a seguir contém efeitos colaterais e declarações;
-ou seja, um exemplo a se evitar
+O exemplo a seguir contém efeitos colaterais e declarações; ou seja, um exemplo a se evitar
 
 ~~~php
 <?php
@@ -120,7 +113,7 @@ e está em um namespace de um nível a menos: nível superior do vendor
 
 Nomes de classes DEVEM ser declarados em `StudlyCaps`.
 
-Código escrito em PHP 5.3  e posterior DEVEM usar namespaces formais.
+Código escrito em PHP 5.3 e posterior DEVEM usar namespaces formais.
 
 Por exemplo:
 
@@ -135,7 +128,7 @@ class Foo
 ~~~
 
 Código escrito em PHP 5.2.x e anterior DEVERIAM usar a convenção de pseudo-nampesace
-de prefixos `Vendor_` no nome da classe
+nos prefixos `Vendor_` no nome da classe.
 
 ~~~php
 <?php
@@ -151,7 +144,7 @@ O termo "classe" se refere a todas as classes, interfaces e traits.
 
 ### 4.1. Constantes
 
-Constantes de classe DEVEM ser declararas todas em caixa alta separadas por underscore .
+Constantes de classe DEVEM ser declararas todas em caixa alta separadas por underscore.
 Por exemplo:
 
 ~~~php
@@ -172,7 +165,7 @@ Este guia intencionalmente evita qualquer recomendação sobre o uso de
 
 
 Seja qual for a convenção de nomenclatura usada, DEVERIA ser aplicada consistentemente dentro de um
-escopo razoável. Esse escopo pode ser em nível-de-vendo, nível-de-pacote, nível-de-classe,
+escopo razoável. Esse escopo pode ser em nível-de-vendor, nível-de-pacote, nível-de-classe,
 ou nível de método.
 
 ### 4.3. Métodos

@@ -1,9 +1,3 @@
----
-title: PRS-3
-category: PSRs
-order: 3
----
-
 Logger Interface
 ================
 
@@ -153,7 +147,7 @@ and a test suite to verify your implementation are provided as part of the
 namespace Psr\Log;
 
 /**
- * Describes a logger instance
+ * Describes a logger instance.
  *
  * The message MUST be a string or object implementing __toString().
  *
@@ -272,12 +266,12 @@ interface LoggerInterface
 namespace Psr\Log;
 
 /**
- * Describes a logger-aware instance
+ * Describes a logger-aware instance.
  */
 interface LoggerAwareInterface
 {
     /**
-     * Sets a logger instance on the object
+     * Sets a logger instance on the object.
      *
      * @param LoggerInterface $logger
      * @return void
@@ -294,7 +288,7 @@ interface LoggerAwareInterface
 namespace Psr\Log;
 
 /**
- * Describes log levels
+ * Describes log levels.
  */
 class LogLevel
 {
