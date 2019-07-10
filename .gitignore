@@ -4,3 +4,4 @@ _site/
 vendor/
 .bundle
 .directory
+.ds_store

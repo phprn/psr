@@ -1,73 +1,65 @@
 ---
-title: PRS-2
+title: PSR-2 Guia de Estilo de Codificação
 category: PSRs
 order: 2
 ---
 
-| Informações Adicionais                   |
-| -----------------------------------------|
-| [Meta Document][Meta Document]           |
-| [Coding Style Guide][Coding Style Guide] |
+#Guia de Estilo de Codificação
 
-[Meta Document]: #Meta Document
-[Coding Style Guide]: #Coding Style Guide
+Este guia se estende e se expande no [PSR-1], o padrão básico de codificação.
 
-<h1 id="Coding Style Guide">Coding Style Guide</h1>
+A intenção deste guia é reduzir o atrito cognitivo ao escanear códigos de 
+diferentes autores. Para isso, são enumerados um conjunto compartilhado 
+de regras e expectativas sobre como formatar o código PHP
 
-This guide extends and expands on [PSR-1], the basic coding standard.
+As regras de estilo aqui são derivadas de semelhanças entre os vários 
+projetos de membros. Quando vários autores colaboram em vários projetos, 
+ajuda ter um conjunto de diretrizes a serem usadas entre todos esses 
+projetos. Assim, o benefício deste guia não está nas próprias regras, 
+mas no compartilhamento dessas regras.
 
-The intent of this guide is to reduce cognitive friction when scanning code
-from different authors. It does so by enumerating a shared set of rules and
-expectations about how to format PHP code.
-
-The style rules herein are derived from commonalities among the various member
-projects. When various authors collaborate across multiple projects, it helps
-to have one set of guidelines to be used among all those projects. Thus, the
-benefit of this guide is not in the rules themselves, but in the sharing of
-those rules.
-
-The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD",
-"SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be
-interpreted as described in [RFC 2119].
+As palavras-chave "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD",
+"SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" nesse documento 
+devem ser interpretadas como descrito na [RFC 2119].
 
 [RFC 2119]: http://www.ietf.org/rfc/rfc2119.txt
-[PSR-0]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md
 [PSR-1]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md
 
-## 1. Overview
+## 1. Visão Geral
 
-- Code MUST follow a "coding style guide" PSR [[PSR-1]].
+- O código DEVE seguir um PSR de "Guia de Estilo de Codificação" [[PSR-1]].
 
-- Code MUST use 4 spaces for indenting, not tabs.
+- O código DEVE utilizar 4 espaços para indentação, não tabs.
 
-- There MUST NOT be a hard limit on line length; the soft limit MUST be 120
-  characters; lines SHOULD be 80 characters or less.
+- NÃO DEVE haver um limite rígido no comprimento da linha; o limite suave 
+  DEVE ter 120 caracteres; linhas devem ter 80 caracteres ou menos.
 
-- There MUST be one blank line after the `namespace` declaration, and there
-  MUST be one blank line after the block of `use` declarations.
+- Deve haver uma linha em branco após a declaração `namespace`, e DEVE 
+  haver uma linha em branco após o bloco de declarações `use`.
 
-- Opening braces for classes MUST go on the next line, and closing braces MUST
-  go on the next line after the body.
+- A abertura de chaves para as classes DEVE ir na próxima linha, 
+  e fechamento das chaves deve ir na próxima linha após o corpo.
 
-- Opening braces for methods MUST go on the next line, and closing braces MUST
-  go on the next line after the body.
+- A abertura de chaves para os métodos DEVE ser feita na próxima linha,
+  e o fechamento das chaves DEVE ser feito na próxima linha após o corpo.
 
-- Visibility MUST be declared on all properties and methods; `abstract` and
-  `final` MUST be declared before the visibility; `static` MUST be declared
-  after the visibility.
+- A visibilidade DEVE ser declarada em todas as propriedades e métodos;
+  `abstract` e `final` DEVEM ser declarados antes da visibilidade;
+  `static` DEVE ser declarado depois da visibilidade.
 
-- Control structure keywords MUST have one space after them; method and
-  function calls MUST NOT.
+- Palavras-chave da estrutura de controle DEVEM ter um espaço depois delas;
+  Chamadas de método e função NÃO DEVEM.
 
-- Opening braces for control structures MUST go on the same line, and closing
-  braces MUST go on the next line after the body.
+- A abertura de chaves para estruturas de controle DEVEM ir na mesma linha, 
+  e o fechamento de chaves DEVE ser feito na linha após o corpo.
 
-- Opening parentheses for control structures MUST NOT have a space after them,
-  and closing parentheses for control structures MUST NOT have a space before.
+- A abertura de parênteses para estruturas de controle NÃO DEVE ter um espaço
+  depois deles, e o fechamento de parênteses para estruturas de controle
+  NÃO DEVE ter um espaço antes.
 
-### 1.1. Example
+### 1.1. Exemplo
 
-This example encompasses some of the rules below as a quick overview:
+Este exemplo engloba algumas das regras abaixo como uma visão geral rápida:
 
 ~~~php
 <?php
@@ -92,26 +84,26 @@ class Foo extends Bar implements FooInterface
 
     final public static function bar()
     {
-        // method body
+        // corpo do método
     }
 }
 ~~~
 
-## 2. General
+## 2. Geral
 
-### 2.1. Basic Coding Standard
+### 2.1. Padrão Básico de Codificação
 
-Code MUST follow all rules outlined in [PSR-1].
+O Código DEVE seguir todas as regras descritas no [PSR-1].
 
-### 2.2. Files
+### 2.2. Arquivos
 
-All PHP files MUST use the Unix LF (linefeed) line ending.
+Todos os arquivos PHP DEVEM usar o Unix LF (linefeed).
 
-All PHP files MUST end with a single blank line.
+Todos os arquivos PHP devem terminar com uma única linha em branco.
 
-The closing `?>` tag MUST be omitted from files containing only PHP.
+A tag de fechamento `?>` DEVE ser omitida dos arquivos contendo apenas PHP.
 
-### 2.3. Lines
+### 2.3. Linhas
 
 There MUST NOT be a hard limit on line length.
 
@@ -619,12 +611,12 @@ guide. These include but are not limited to:
 Future recommendations MAY revise and extend this guide to address those or
 other elements of style and practice.
 
-## Appendix A. Survey
+## Apêndice A. Pesquisa
 
 In writing this style guide, the group took a survey of member projects to
 determine common practices.  The survey is retained herein for posterity.
 
-### A.1. Survey Data
+### A.1. Dados de Pesquisa
 
     url,http://www.horde.org/apps/horde/docs/CODING_STANDARDS,http://pear.php.net/manual/en/standards.php,http://solarphp.com/manual/appendix-standards.style,http://framework.zend.com/manual/en/coding-standard.html,http://symfony.com/doc/2.0/contributing/code/standards.html,http://www.ppi.io/docs/coding-standards.html,https://github.com/ezsystems/ezp-next/wiki/codingstandards,http://book.cakephp.org/2.0/en/contributing/cakephp-coding-conventions.html,https://github.com/UnionOfRAD/lithium/wiki/Spec%3A-Coding,http://drupal.org/coding-standards,http://code.google.com/p/sabredav/,http://area51.phpbb.com/docs/31x/coding-guidelines.html,https://docs.google.com/a/zikula.org/document/edit?authkey=CPCU0Us&hgd=1&id=1fcqb93Sn-hR9c0mkN6m_tyWnmEvoswKBtSc0tKkZmJA,http://www.chisimba.com,n/a,https://github.com/Respect/project-info/blob/master/coding-standards-sample.php,n/a,Object Calisthenics for PHP,http://doc.nette.org/en/coding-standard,http://flow3.typo3.org,https://github.com/propelorm/Propel2/wiki/Coding-Standards,http://developer.joomla.org/coding-standards.html
     voting,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,yes,no,no,no,?,yes,no,yes
@@ -797,46 +789,4 @@ A summary of what line the opening braces go on for classes, methods, and contro
         next/next/same: 11
         next/same/same: 1
         same/same/same: 6
-
-
-
-<h1 id="Meta Document"> PSR-2 Meta Document </h1>
-
-## 1. Summary
-
-The intent of this guide is to reduce cognitive friction when scanning code from different authors. It does so
-by enumerating a shared set of rules and expectations about how to format PHP code.
-
-The style rules herein are derived from commonalities among the various member projects. When various authors
-collaborate across multiple projects, it helps to have one set of guidelines to be used among all those
-projects. Thus, the benefit of this guide is not in the rules themselves, but in the sharing of those rules.
-
-## 2. Votes
-
-- **Acceptance Vote:** [ML](https://groups.google.com/d/msg/php-fig/c-QVvnZdMQ0/TdDMdzKFpdIJ)
-
-## 3. Errata
-
-### 3.1 - Multi-line Arguments (09/08/2013)
-
-Using one or more multi-line arguments (i.e: arrays or anonymous functions) does not constitute
-splitting the argument list itself, therefore Section 4.6 is not automatically enforced. Arrays and anonymous
-functions are able to span multiple lines.
-
-The following examples are perfectly valid in PSR-2:
-
-~~~php
-<?php
-somefunction($foo, $bar, [
-    // ...
-], $baz);
-
-$app->get('/hello/{name}', function ($name) use ($app) {
-    return 'Hello '.$app->escape($name);
-});
-~~~
-
-### 3.2 - Extending Multiple Interfaces (10/17/2013)
-
-When extending multiple interfaces, the list of `extends` should be treated the same as a list
-of `implements`, as declared in Section 4.1.
+        
