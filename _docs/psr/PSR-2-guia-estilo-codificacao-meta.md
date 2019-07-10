@@ -1,3 +1,9 @@
+---
+title: PRS-2
+category: PSRs
+order: 3
+---
+
 ## 1. Resumo
 
 A intenção deste guia é reduzir o atrito cognitivo ao escanear códigos de diferentes autores. Para isso, são enumerados um conjunto compartilhado de regras e expectativas sobre como formatar o código PHP

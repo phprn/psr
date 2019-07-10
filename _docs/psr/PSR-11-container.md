@@ -1,3 +1,9 @@
+---
+title: PRS-11
+category: PSRs
+order: 12
+---
+
 # Container interface
 
 This document describes a common interface for dependency injection containers.

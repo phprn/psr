@@ -1,3 +1,9 @@
+---
+title: PRS-7
+category: PSRs
+order: 10
+---
+
 # HTTP message interfaces
 
 This document describes common interfaces for representing HTTP messages as

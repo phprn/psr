@@ -1,3 +1,9 @@
+---
+title: PRS-2
+category: PSRs
+order: 2
+---
+
 #Guia de Estilo de Codificação
 
 Este guia se estende e se expande no [PSR-1], o padrão básico de codificação.

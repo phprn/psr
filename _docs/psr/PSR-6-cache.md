@@ -1,3 +1,9 @@
+---
+title: PRS-6
+category: PSRs
+order: 8
+---
+
 # Caching Interface
 
 Caching is a common way to improve the performance of any project, making

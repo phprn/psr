@@ -1,3 +1,9 @@
+---
+title: PRS-4
+category: PSRs
+order: 5
+---
+
 # Autoloader
 
 The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD",

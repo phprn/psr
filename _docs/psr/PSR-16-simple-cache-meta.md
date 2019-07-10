@@ -1,3 +1,9 @@
+---
+title: PRS-16
+category: PSRs
+order: 21
+---
+
 # PSR-16 Meta Document
 
 ## 1. Summary

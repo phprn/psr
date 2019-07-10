@@ -1,3 +1,9 @@
+---
+title: PRS-4
+category: PSRs
+order: 6
+---
+
 Example Implementations of PSR-4
 ================================
 

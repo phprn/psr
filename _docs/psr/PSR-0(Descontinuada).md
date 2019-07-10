@@ -1,3 +1,9 @@
+---
+title: PRS-0
+category: PSRs
+order: 0
+---
+
 Padrão de Carregamento Automático (AutoLoading Standard)
 ====================
 

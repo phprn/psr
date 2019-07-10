@@ -1,3 +1,9 @@
+---
+title: PRS-4
+category: PSRs
+order: 7
+---
+
 # PSR-4 Meta Document
 
 ## 1. Summary

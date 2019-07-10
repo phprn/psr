@@ -1,3 +1,9 @@
+---
+title: PRS-6
+category: PSRs
+order: 9
+---
+
 # PSR-Cache Meta Document
 
 ## 1. Summary
