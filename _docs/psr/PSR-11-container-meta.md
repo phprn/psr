@@ -1,5 +1,5 @@
 ---
-title: PRS-11
+title: PSR-11
 category: PSRs
 order: 13
 ---

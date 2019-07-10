@@ -1,5 +1,5 @@
 ---
-title: PRS-0
+title: PSR-0
 category: PSRs
 order: 0
 ---

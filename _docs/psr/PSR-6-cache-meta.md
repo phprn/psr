@@ -1,5 +1,5 @@
 ---
-title: PRS-6
+title: PSR-6
 category: PSRs
 order: 9
 ---

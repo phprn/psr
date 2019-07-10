@@ -1,5 +1,5 @@
 ---
-title: PRS-4
+title: PSR-4
 category: PSRs
 order: 5
 ---

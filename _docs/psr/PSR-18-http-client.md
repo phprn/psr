@@ -1,5 +1,5 @@
 ---
-title: PRS-18
+title: PSR-18
 category: PSRs
 order: 24
 ---

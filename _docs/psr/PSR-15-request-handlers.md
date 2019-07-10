@@ -1,5 +1,5 @@
 ---
-title: PRS-15
+title: PSR-15
 category: PSRs
 order: 18
 ---
