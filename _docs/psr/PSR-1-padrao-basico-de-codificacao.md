@@ -1,5 +1,5 @@
 ---
-title: PSR-1
+title: PSR-1: Padrão Básico de Codificação
 category: PSRs
 order: 1
 ---

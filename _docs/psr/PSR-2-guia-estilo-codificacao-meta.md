@@ -1,5 +1,5 @@
 ---
-title: PSR-2
+title: PSR-2 Meta Document
 category: PSRs
 order: 3
 ---

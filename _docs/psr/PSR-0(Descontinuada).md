@@ -1,5 +1,5 @@
 ---
-title: PSR-0
+title: PSR-0: Descontinuada
 category: PSRs
 order: 0
 ---

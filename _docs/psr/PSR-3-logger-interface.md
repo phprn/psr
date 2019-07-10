@@ -1,5 +1,5 @@
 ---
-title: PSR-3
+title: PSR-3: Interface de Log
 category: PSRs
 order: 4
 ---
