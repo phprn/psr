@@ -1,5 +1,5 @@
 ---
-title: PSR-14
+title: PSR-14 Meta Document
 category: PSRs
 order: 17
 ---

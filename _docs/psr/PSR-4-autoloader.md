@@ -1,5 +1,5 @@
 ---
-title: PSR-4
+title: PSR-4: Autoloader
 category: PSRs
 order: 5
 ---

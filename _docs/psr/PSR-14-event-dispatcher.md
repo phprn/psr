@@ -1,5 +1,5 @@
 ---
-title: PSR-14
+title: PSR-14 Expedição de Eventos
 category: PSRs
 order: 16
 ---

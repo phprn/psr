@@ -1,5 +1,5 @@
 ---
-title: PSR-16
+title: PSR-16 Cache Simples
 category: PSRs
 order: 20
 ---

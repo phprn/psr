@@ -1,5 +1,5 @@
 ---
-title: PSR-17
+title: PSR-17 HTTP Factory
 category: PSRs
 order: 22
 ---

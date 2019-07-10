@@ -1,5 +1,5 @@
 ---
-title: PSR-2: Guia de Estilo de Codificação
+title: PSR-2 Guia de Estilo de Codificação
 category: PSRs
 order: 2
 ---

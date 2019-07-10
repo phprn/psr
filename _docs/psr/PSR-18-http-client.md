@@ -1,5 +1,5 @@
 ---
-title: PSR-18
+title: PSR-18 Client HTTP
 category: PSRs
 order: 24
 ---

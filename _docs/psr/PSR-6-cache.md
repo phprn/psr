@@ -1,5 +1,5 @@
 ---
-title: PSR-6
+title: PSR-6 Cache
 category: PSRs
 order: 8
 ---

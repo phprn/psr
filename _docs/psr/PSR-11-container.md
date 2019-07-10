@@ -1,5 +1,5 @@
 ---
-title: PSR-11
+title: PSR-11 Container
 category: PSRs
 order: 12
 ---

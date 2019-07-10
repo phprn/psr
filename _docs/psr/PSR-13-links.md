@@ -1,5 +1,5 @@
 ---
-title: PSR-13
+title: PSR-13 Links
 category: PSRs
 order: 14
 ---

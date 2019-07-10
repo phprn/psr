@@ -1,5 +1,5 @@
 ---
-title: PSR-4
+title: PSR-4 Exemplos de Autoloader
 category: PSRs
 order: 6
 ---
