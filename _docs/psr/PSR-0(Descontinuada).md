@@ -7,7 +7,7 @@ order: 0
 Padrão de Carregamento Automático (AutoLoading Standard)
 ====================
 
-> **Obsoleto** - A partir de 21-10-2014, o PSR-0 foi marcado como obsoleto. [PSR-4] agora é recomendado
+> **Obsoleto** - A partir de 21-10-2014, o PSR-0 foi marcado como obsoleto. Agora o [PSR-4] é recomendado
 como uma alternativa.
 
 [PSR-4]: http://www.php-fig.org/psr/psr-4/
