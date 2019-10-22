@@ -1,7 +1,7 @@
 ---
 title: PSR-17 Meta Document
 category: PSRs
-order: 23
+order: 25
 ---
 
 HTTP Factories Meta

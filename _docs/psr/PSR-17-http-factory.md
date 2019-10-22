@@ -1,7 +1,7 @@
 ---
 title: PSR-17 HTTP Factory
 category: PSRs
-order: 22
+order: 24
 ---
 
 HTTP Factories

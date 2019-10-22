@@ -1,7 +1,7 @@
 ---
 title: PSR-18 Meta Document
 category: PSRs
-order: 25
+order: 27
 ---
 
 HTTP Client Meta Document
