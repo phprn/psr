@@ -1,7 +1,7 @@
 ---
 title: PSR-16 Cache Simples
 category: PSRs
-order: 20
+order: 22
 ---
 
 Common Interface for Caching Libraries

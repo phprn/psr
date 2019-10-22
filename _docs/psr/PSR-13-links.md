@@ -1,7 +1,7 @@
 ---
 title: PSR-13 Links
 category: PSRs
-order: 14
+order: 16
 ---
 
 # Link definition interfaces

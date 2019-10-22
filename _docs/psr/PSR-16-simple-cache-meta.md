@@ -1,7 +1,7 @@
 ---
 title: PSR-16 Meta Document
 category: PSRs
-order: 21
+order: 23
 ---
 
 # PSR-16 Meta Document

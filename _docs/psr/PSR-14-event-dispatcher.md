@@ -1,7 +1,7 @@
 ---
 title: PSR-14 Expedição de Eventos
 category: PSRs
-order: 16
+order: 18
 ---
 
 Event Dispatcher

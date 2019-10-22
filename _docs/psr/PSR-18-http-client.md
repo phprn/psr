@@ -1,7 +1,7 @@
 ---
 title: PSR-18 Client HTTP
 category: PSRs
-order: 24
+order: 26
 ---
 
 HTTP Client
