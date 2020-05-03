@@ -154,6 +154,7 @@ parte do pacote [psr/log](https://packagist.org/packages/psr/log).
 namespace Psr\Log;
 
 /**
+
  * Descreve uma instância do registrador.
  *
  * A mensagem DEVE ser uma string ou um objeto implementado __toString().
